@@ -86,7 +86,7 @@ Extension have two option
 
     **Font Tool** is an SDF font generator 
 
-    ![Font Tool Image](images/Font Tool.png)
+    ![Font Tool Image](images/Font_Tool.png)
 
     **NOTE:** Make sure the path don't have space
 
@@ -137,10 +137,10 @@ After exporting png and json with **font tool** and importing assets, we are now
 1. Create an **Empty Node**
 2. Select the **node** in Node Tree and click **Add Components** in properties
 3. You can see new option called **TextMeshPro Components**, hover and select **TextMEshPro** or **TmpRichText**
-    ![Add Component Image](images/Add Component.png)
+    ![Add Component Image](images/Add_Component.png)
 4. You can now see the component with various option you can play with
 
-    ![Component Image](images/Component Options.png)
+    ![Component Image](images/Component_Options.png)
 
 # Component Parameters
 
@@ -185,7 +185,7 @@ After exporting png and json with **font tool** and importing assets, we are now
 
 **TypeWriter Effect**
 
-![Extension Image](images/Typewrite Anim.gif)
+![Extension Image](images/Typewrite_Anim.gif)
 ```typescript
 public _fScale: number = 1;
     public _xOffset: number = 0;
@@ -244,7 +244,7 @@ public _fScale: number = 1;
 
 **Wave Effect**
 
-![Extension Image](images/Wave Anim.gif)
+![Extension Image](images/Wave_Anim.gif)
 ```typescript
 private waveAnimation() {
         this.schedule(() => {
